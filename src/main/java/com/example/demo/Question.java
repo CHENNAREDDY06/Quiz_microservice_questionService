@@ -34,6 +34,7 @@ public class Question {
 		this.category = category;
 	}
 	public String getCategory() {
+		System.out.println("I am here again")
 		return category;
 	}
 	public void setCategory(String category) {
