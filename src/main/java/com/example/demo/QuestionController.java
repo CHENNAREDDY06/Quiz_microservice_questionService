@@ -20,7 +20,11 @@ public class QuestionController {
 	
 	@GetMapping("/allQuestions")
 	public ResponseEntity<List<Question>> getAllQuestions() {
+		System.out.println("Iam in controller");
+				System.out.println("Iam in controller");
+
 		return questionService.getAllQuestions();
+
 		
 	}
 	
